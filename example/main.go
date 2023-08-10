@@ -10,5 +10,11 @@ func main() {
 	if err != nil {
 		panic(err.Error())
 	}
-	fmt.Println(data)
+	fmt.Println("IP Address:" + data.IPAddress)
+	fmt.Println("Continent:" + data.Continent)
+	fmt.Println("Country:" + data.Country)
+	fmt.Println("City:" + data.City)
+	fmt.Println("Latitude:" + data.Latitude)
+	fmt.Println("Longitude:" + data.Longitude)
+	fmt.Println("Accuracy:" + data.Accuracy)
 }
